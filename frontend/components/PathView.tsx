@@ -91,18 +91,22 @@ export function PathView({ units }: { units: PathUnit[] }) {
       ))}
 
       {showFab && (
-        <button
-          type="button"
-          onClick={() =>
-            currentRef.current?.scrollIntoView({ block: "center", behavior: "smooth" })
-          }
-          className="fixed bottom-24 md:bottom-10 right-4 lg:right-auto lg:left-[calc(256px+min(600px,100vw-640px)-1.5rem)] z-20 w-14 h-14 rounded-full bg-[var(--card)] border-2 border-[var(--border)] shadow-[0_2px_0_var(--border)] flex items-center justify-center"
-          aria-label="Jump to current lesson"
-        >
+        <div className="pointer-events-none absolute inset-0 z-20">
+          <div className="sticky top-[calc(100vh-6.5rem)] flex justify-end pr-1 md:pr-2">
+            <button
+              type="button"
+              onClick={() =>
+                currentRef.current?.scrollIntoView({ block: "center", behavior: "smooth" })
+              }
+              className="pointer-events-auto w-14 h-14 rounded-full bg-[var(--card)] border-2 border-[var(--border)] shadow-[0_2px_0_var(--border)] flex items-center justify-center"
+              aria-label="Jump to current lesson"
+            >
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1cb0f6" strokeWidth="3">
             <path d="M12 19V5M5 12l7-7 7 7" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-        </button>
+            </button>
+          </div>
+        </div>
       )}
 
       {selected && (
