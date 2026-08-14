@@ -24,6 +24,11 @@ app.include_router(path.router, prefix="/api")
 app.include_router(lessons.router, prefix="/api")
 
 
+@app.get("/")
+def root():
+    return {"ok": True, "health": "/api/health", "docs": "/docs"}
+
+
 @app.get("/api/health")
 def health():
     return {"ok": True}

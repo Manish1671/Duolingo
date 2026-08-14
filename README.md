@@ -3,8 +3,8 @@
 A fullstack clone of the Duolingo web learning app for an SDE placement assignment. It recreates the winding learning path, the lesson player (five exercise types), hearts, XP, streaks, and a seeded Spanish course.
 
 **Live demo:** _add Vercel URL after deploy_  
-**API:** _add Render/Railway URL after deploy_  
-**GitHub:** this repository
+**API:** https://duolingo-7ndg.onrender.com  
+**GitHub:** https://github.com/Manish1671/Duolingo
 
 ## 60-second demo script
 
