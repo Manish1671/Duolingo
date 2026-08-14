@@ -476,7 +476,7 @@ export function LessonPlayer({ lessonId }: { lessonId: number }) {
                 <DuoButton variant="outline" disabled={checking} onClick={() => check(true)}>
                   Skip
                 </DuoButton>
-                <DuoButton disabled={!ready || checking} onClick={check}>
+                <DuoButton disabled={!ready || checking} onClick={() => check()}>
                   Check
                 </DuoButton>
               </>
