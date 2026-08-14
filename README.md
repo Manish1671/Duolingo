@@ -2,7 +2,7 @@
 
 A fullstack Duolingo-style web app: winding learning path, five exercise types, hearts, XP, and streaks. Spanish course is seeded so you can use it immediately.
 
-**Live demo:** https://duolingo-git-main-manish1671s-projects.vercel.app  
+**Live demo:** https://duolingo-oowg71fcs-manish1671s-projects.vercel.app/  
 **API:** https://duolingo-7ndg.onrender.com  
 **GitHub:** https://github.com/Manish1671/Duolingo
 
