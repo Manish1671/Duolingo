@@ -14,7 +14,7 @@ export default function ShopPage() {
         <div className="text-xs font-extrabold uppercase text-[#ce82ff]">Super Duolingo</div>
         <h2 className="text-2xl font-extrabold my-1">No ads, unlimited hearts</h2>
         <p className="text-[var(--wolf)] font-semibold mb-4">
-          Subscriptions are mocked for this assignment and cannot be purchased.
+          Super is not available in this demo.
         </p>
         <DuoButton variant="outline" disabled>
           Coming soon
@@ -24,7 +24,7 @@ export default function ShopPage() {
       <div className="border-2 border-[var(--border)] rounded-2xl p-5">
         <div className="text-xs font-extrabold uppercase text-[#1cb0f6]">Streak freeze</div>
         <h2 className="text-2xl font-extrabold my-1">Protect your streak</h2>
-        <p className="text-[var(--wolf)] font-semibold mb-4">Costs 200 gems. In-app purchases are placeholders.</p>
+        <p className="text-[var(--wolf)] font-semibold mb-4">200 gems. Purchases are not enabled.</p>
         <DuoButton variant="blue" disabled>
           200 gems
         </DuoButton>

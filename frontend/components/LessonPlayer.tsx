@@ -108,7 +108,7 @@ export function LessonPlayer({ lessonId }: { lessonId: number }) {
     return () => {
       cancelled = true;
     };
-    // setHearts is stable; restarting on it caused an infinite start/loading loop.
+    // Avoid restarting the lesson when hearts update.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lessonId]);
 

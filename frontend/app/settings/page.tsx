@@ -78,7 +78,7 @@ export default function SettingsPage() {
       <div className="duo-card">
         <div className="font-extrabold mb-1">Simulate streak date</div>
         <p className="text-sm text-[var(--wolf)] font-semibold mb-3">
-          For interviews: set a date, then complete a lesson. Streak uses this as “today”.
+          Treat this date as today when you complete a lesson, to test streak logic.
         </p>
         <input
           type="date"
